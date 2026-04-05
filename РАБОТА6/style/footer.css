@@ -1,0 +1,41 @@
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px 20px;
+}
+
+.link_footer {
+    display: flex;
+    gap: 27px;
+}
+
+.link_footer > a {
+    text-decoration: none;
+    font-family: "DM sans";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+    color: black;
+}
+
+.hueta__span {
+    display: flex;
+    gap: 16px;
+    align-items: end;
+}
+
+.hueta__2 {
+    display: flex;
+    gap: 40px;
+}
+
+.hueta {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}

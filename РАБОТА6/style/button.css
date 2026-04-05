@@ -1,0 +1,58 @@
+.button_green_nav {
+    text-decoration: none;
+    font-family: "DM sans";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+    color: white;
+    background-color: #485C11;
+    padding: 14px 22px;
+    box-sizing: border-box;
+    border-radius: 1000px;
+}
+
+.button_mint {
+    text-decoration: none;
+    color: black;
+    max-width: 138px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.button_mint > span {
+    padding: 14px 22px;
+    background-color: #DFECC6;
+    border-radius: 1000px;
+    font-family: "DM sans";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+}
+
+.button_green_nav600 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 0;
+    background-color: #485C11;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-radius: 1000px;
+}
+
+.button_green_nav600 > span {
+    font-family: "DM sans";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+}
+
+.button_green_nav600 > img {
+    width: 6px;
+    height: 6px;
+}

@@ -1,0 +1,486 @@
+.logo__firm {
+    max-width: 1200px;
+    max-height: 235px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo__firm > p {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+    color: #6F6F6F;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo > img {
+    padding: 20px;
+}
+
+.horizontal__gray {
+    background-color: #f3f2f2;
+    opacity: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+}
+
+.Benefits__section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.Benefits__text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 80px 0 60px;
+}
+
+.Benefits__paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Benefits__paragraph > h1, h3 {
+    margin: 0;
+} 
+
+.green__captions {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -1%;
+    color: #485C11;
+    margin: 0;
+}
+
+.Benefits__paragraph > h3 {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+    color: #6F6F6F;
+}
+
+.Benefits__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.card {
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #E9E9E9;
+}
+
+.card > img {
+    max-width: 24px;
+}
+
+.card > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card p {
+    margin: 0;
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
+}
+
+.card span {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    color: #6F6F6F;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+}
+
+.hero {
+    padding-bottom: 108px;
+}
+
+.Features__carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.Features__text {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    gap: 40px;
+    border-top: 1px solid #E9E9E9;
+    padding: 60px 0 80px;
+}
+
+.Features__title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.heading1 {
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90%;
+    letter-spacing: -3%;
+    margin: 0;
+}
+
+.Features__title > p {
+    margin: 0;
+    max-width: 510px;
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    color: #6F6F6F;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+}
+
+.Features__list {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+}
+
+.section__list {
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #E9E9E9;
+}
+
+.section__list p {
+    margin: 0;
+    max-width: 460px;
+}
+
+.gray__number {
+    color: #6F6F6F;
+    font-weight: bold;
+}
+
+.Specs {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 120px;
+}
+
+.Specs__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 0;
+    border-top: 1px solid #929292;
+}
+
+.Specs__text > span {
+    max-width: 710px;
+    text-align: center;
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+    color: #6F6F6F;
+}
+
+.column__specs {
+    display: flex;
+    width: 100%;
+
+}
+
+.column_1 ,
+.column_2 {
+    min-width: 400px;
+}
+
+.list__column {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -1%;
+}
+
+.last__border {
+    border: none;
+}
+
+.list__column > span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 30px;
+    border-bottom: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;
+}
+
+.list__column > span > img {
+    width: 14px;
+    height: 14px;
+}
+
+.list__column > span > p {
+    margin: 0;
+}
+
+.column_2 > p  {
+    margin: 0;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #929292;
+}
+
+.column_1 > p {
+    margin: 0;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #929292;
+}
+
+.column_1 > div > span {
+    border-right: 0;
+}
+
+.last__border {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 30px;
+}
+
+.last__border > p {
+    margin: 0;
+}
+
+.column_1 {
+    border: 1px solid #E9E9E9;
+    box-shadow: 1px 0 8px #E9E9E9 ;
+    border-radius: 20px;
+}
+
+.rethinc__sans_black {
+    font-family: "DM sans";
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.rethinc__sans_gray {
+    font-family: "Rethink Sans";
+    font-weight: 500;
+    font-size: 22.8px;
+    line-height: 120%;
+    letter-spacing: -8%;
+    color: #6F6F6F;
+}
+
+.Head_of_Data {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 120px;
+}
+
+.quote {
+    max-width: 590px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    border-top: 1px solid #E9E9E9;
+}
+
+.quote > span {
+    max-width: 540px;
+    display: flex;
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.name > p {
+    margin: 0;
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+}
+
+.How_it_works {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Success__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Success__text > span {
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90%;
+    letter-spacing: -3%;
+}
+
+.card__1 > h1 {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    color: #929292;
+    margin: 0;
+}
+
+.card__1 > div > p {
+    margin: 0;
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
+}
+
+.card__1 > div > span {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+    color: #6F6F6F;
+}
+
+.card__1 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 356px;
+}
+
+.card__1 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px 0 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #E9E9E9;
+}
+
+.Success__card {
+    display: grid;
+    grid-auto-rows: minmax(100px , auto);
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.Success {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 0 120px;
+    border-top: 1px solid #E9E9E9;
+}
+
+.Centered {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.image_How {
+    padding-bottom: 40px; 
+}
+
+.Centered_CTA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 120px 0;
+    border-top: 1px solid #E9E9E9 ;
+    border-bottom: 1px solid #E9E9E9 ;
+}
+
+.Centered_CTA > h1 {
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90%;
+    letter-spacing: -3%;
+    margin: 0;
+}
+
+.Centered_CTA > span {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.5%;
+    max-width: 600px;
+    text-align: center;
+}
+

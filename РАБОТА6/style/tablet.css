@@ -1,0 +1,148 @@
+@media (min-width: 800px) and (max-width: 1279px) {
+    .navigation {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 10px 40px;
+        margin-bottom: 82px;
+    }
+
+    .smart {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 40px;
+        display: flex;
+        gap: 140px;
+    }
+
+    .browse {
+        width: 640px;
+        text-align: center;
+    }
+
+    .logo__firm {
+        max-width: 720px;
+        
+    }
+
+    .logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .horizontal__gray {
+        max-width: 720px;
+    }
+
+    .Benefits__section {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 40px;
+    }
+    
+    .Benefits__card {
+        max-width: 720px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .Benefits__text {
+        max-width: 720px;
+    }
+
+    .Benefits__paragraph {
+        max-width: 720px;
+    }
+
+    .Features__carousel {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 120px;
+    }
+
+    .Features__text {
+        width: 100%;
+    }
+
+    .section__list p {
+        margin: 0;
+        max-width: 575px;
+    }
+
+    .Specs {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .Specs__text > span {
+        max-width: 560px;
+    }
+
+    .column__specs {
+        max-width: 720px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 120px;
+    }
+
+    .column_1 ,
+    .column_2 {
+        min-width: 100px;
+    }
+
+    .How_it_works {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 40px;
+        flex-direction: column-reverse;
+    }
+
+    .Head_of_Data {
+        flex-direction: column;
+    }
+
+    .quote {
+        padding: 0;
+        padding-top: 50px;
+        max-width: 720px;
+    }
+
+    .quote > span {
+        max-width: 720px;
+    }
+
+    .name {
+        flex-direction: row;
+    }
+
+    .Centered {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .image_How {
+        padding: 0px; 
+    }
+
+    .button_green_nav600 {
+        width: 520px;
+    }
+    
+    .Centered_CTA > span {
+        width: 520px;
+    }
+
+    .footer {
+        max-width: 720px;
+    }
+}
